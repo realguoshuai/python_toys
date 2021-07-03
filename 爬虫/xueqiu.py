@@ -21,7 +21,8 @@ class xueqiu:
         self.page_list_api = 'https://xueqiu.com/statuses/original/timeline.json?user_id={user_id}&page={page_num}'  # 雪球某个人的帖子分页数据API
         self.reward_api = 'https://xueqiu.com/statuses/reward/list_by_user.json?status_id={status_id}&page=1&size=20'  # 某个帖子的打赏数据API
         self.user_id = '6784593966'  # 元卫南的用户ID 2227798650      盛京剑客id  6784593966
-
+        self.user = '元卫南'
+        
         self.headers = {
            # "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
            # "Cookie": "aliyungf_tc=AQAAADriOUCilQoAxZ5btPQfYv7152ox; acw_tc=2760824915856669537353368e2ea5d4c1b87e45dadece330ae07e755b96f1; xq_a_token=2ee68b782d6ac072e2a24d81406dd950aacaebe3; xqat=2ee68b782d6ac072e2a24d81406dd950aacaebe3; xq_r_token=f9a2c4e43ce1340d624c8b28e3634941c48f1052; xq_id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOi0xLCJpc3MiOiJ1YyIsImV4cCI6MTU4NzUyMjY2MSwiY3RtIjoxNTg1NjY2OTA4NDgwLCJjaWQiOiJkOWQwbjRBWnVwIn0.YCQ_yUlzhRvTiUgz1BWWDFrsmlxSgsbaaKs0cxsdxnOaMhIjF0qUX-5WNeqfRXe15I5cPHiFf-5AzeRZgjy0_bSId2-jycpDWuSIseOY07nHM306A8Y1vSJJx4Q9gFnWx4ETpbdu1VXyMYKpwVIKfmSb5sbGZYyHDJPQQuNTfIAtPBiIeHWPDRB-wtf0qa5FNSMK3LKHRZooXjUgh-IAFtQihUIr9D81tligmjNYREntMY1gLg5Kq6GjgivfF9CFc11sJ11fZxnSw9e8J_Lmx8XXxhwHv-j4-ANUSIuglM4cT6yCsWa3pGAVMN18r2cV72JNkk343I05DevQkbX8_A; u=481585666954081; Hm_lvt_1db88642e346389874251b5a1eded6e3=1585666971; device_id=24700f9f1986800ab4fcc880530dd0ed; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1585667033"
