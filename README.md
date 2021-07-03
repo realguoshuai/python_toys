@@ -1,2 +1,3 @@
 # python_toys
-一些python小玩意
+
+统计雪球大V元卫南收到的打赏金额
